@@ -1,3 +1,4 @@
+// src/counterReducer.js
 const counterReducer = (state = { count: 0 }, action) => {
     switch (action.type) {
       case 'INCREMENT':
@@ -10,3 +11,4 @@ const counterReducer = (state = { count: 0 }, action) => {
   };
   
   export default counterReducer;
+  
